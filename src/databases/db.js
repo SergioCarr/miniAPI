@@ -1,9 +1,9 @@
 // db.js es la configuración de la base de datos
 const { MongoClient, ObjectId} = require('mongodb')
-const url = 'mongodb://127.0.0.1:27017'
+const url = 'mongodb+srv://Admin:FOODIE@clusterfoodie.10j4aom.mongodb.net/'
 const client = new MongoClient(url)
 
-const dbName = 'Mini_Proyecto'
+const dbName = 'mini_proyecto'
 
 async function con(){
     console.log("inicia la funcion")
